@@ -1,59 +1,79 @@
-# 📊 Employee Sentiment Analysis – Summary
-
-This repository contains the analysis and modeling of employee sentiment based on internal email messages. The project uses NLP to label sentiments, generate insights, score employees, detect flight risks, and predict trends.
-
----
-
-## 🔝 Top 3 Positive Employees (Example: July 2011)
-
-| Rank | Employee Email                 | Score |
-|------|-------------------------------|-------|
-| 1    | johnny.palmer@enron.com       | +2    |
-| 2    | sally.beck@enron.com          | +2    |
-| 3    | patti.thompson@enron.com      | +1    |
+<h1 align="center">📊 Employee Sentiment Analysis</h1>
+<p align="center">
+  🔍 Natural Language Processing • 📧 Email Text Mining • 📈 Predictive Modeling
+</p>
 
 ---
 
-## 🔻 Top 3 Negative Employees (Example: July 2011)
+## 📄 Visualization Report
 
-| Rank | Employee Email                 | Score |
-|------|-------------------------------|-------|
-| 1    | bobette.riner@jpgdirect.com   | –3    |
-| 2    | don.baughman@enron.com        | –3    |
-| 3    | john.arnold@enron.com         | –2    |
+✨ **[👉 Click here to view the Full Visualization Report (PDF)](https://github.com/Gokul7904231/Sentiment_Analysis/raw/main/Employee_Sentiment_Analysis_Visualizations.pdf)**  
+🖼️ Includes EDA Charts • Rankings • Flight Risk Graphs • Model Performance
+
+---
+
+## 🚀 Project Overview
+
+This project uses NLP and data science to analyze employee email messages and measure sentiment trends over time. It helps identify:
+- Monthly sentiment patterns
+- Top/Bottom scoring employees
+- High-risk individuals (flight risk)
+- Predictive trends using linear regression
+
+---
+
+## 🏆 Top Employees (Example: July 2011)
+
+### ✅ Top 3 Positive Employees
+
+| Rank | Employee Email           | Score |
+|------|--------------------------|-------|
+| 🥇   | johnny.palmer@enron.com  | +2    |
+| 🥈   | sally.beck@enron.com     | +2    |
+| 🥉   | patti.thompson@enron.com | +1    |
+
+### ⚠️ Top 3 Negative Employees
+
+| Rank | Employee Email               | Score |
+|------|------------------------------|-------|
+| 🔻   | bobette.riner@jpgdirect.com  | –3    |
+| 🔻   | don.baughman@enron.com       | –3    |
+| 🔻   | john.arnold@enron.com        | –2    |
 
 ---
 
 ## 🚨 Employees Flagged as Flight Risks
 
-These employees sent 4 or more negative emails within any rolling 30-day window:
+These employees sent **4+ negative emails** in any 30-day rolling window:
 
-- jeffrey.shankman@enron.com
-- mike.mcconnell@enron.com
-- michael.rose@enron.com
-- kate.symes@enron.com
-- vince.kaminski@enron.com
+- jeffrey.shankman@enron.com  
+- mike.mcconnell@enron.com  
+- michael.rose@enron.com  
+- kate.symes@enron.com  
+- vince.kaminski@enron.com  
 
-> ✅ Total flagged employees: 5
+> 📌 Total flagged: **5**
 
 ---
 
-## 🔍 Key Insights
+## 📊 Key Insights
 
-- **Negative Dominance:** Negative messages significantly outnumber positive ones, suggesting morale or engagement concerns.
-- **Monthly Fluctuations:** Sentiment trends vary month to month, often showing spikes during key periods.
-- **Consistent Positivity:** Some employees maintain positive sentiment over several months.
-- **Early Risk Signals:** Employees flagged for flight risk showed progressive negative trends before reaching the risk threshold.
+✅ Negative messages outnumbered positive ones, highlighting low morale  
+📆 Sentiment fluctuates monthly — with dips during stress periods  
+🏅 Some employees maintained consistent positivity  
+🚨 Gradual negativity build-up was a strong indicator of flight risk  
 
 ---
 
 ## ✅ Recommendations
 
-- Introduce regular pulse surveys for high-risk departments or employees.
-- Implement feedback sessions for individuals with consistent negative sentiment.
-- Enhance the predictive model with department, message topic, or network data.
+📍 Deploy pulse surveys for flagged individuals or teams  
+👥 HR 1:1 sessions for consistently negative communicators  
+📈 Expand model with metadata (department, topic, team size, etc.)  
 
 ---
+
+## 📁 Project Structure
 
 ## 📁 Project Structure
 
@@ -71,12 +91,13 @@ These employees sent 4 or more negative emails within any rolling 30-day window:
 ├── Employee_Sentiment_Analysis_Visualizations.docx
 └── README.md
 ```
-📄 [View Visualization Report (PDF)](https://github.com/Gokul7904231/Sentiment_Analysis/raw/main/Employee_Sentiment_Analysis_Visualizations.pdf)
-
 
 ---
 
 ## 👤 Author
 
 **Gokul A**  
-Submitted to Springer Capital as part of internal assessment.
+Submitted to **Springer Capital** as part of the final internship assessment.
+
+
+
