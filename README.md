@@ -71,7 +71,7 @@ These employees sent 4 or more negative emails within any rolling 30-day window:
 ├── Employee_Sentiment_Analysis_Visualizations.docx
 └── README.md
 ```
-[View PDF](Employee_Sentiment_Analysis_Report.pdf)
+📄 [View Visualization Report (PDF)](https://github.com/Gokul7904231/Sentiment_Analysis/raw/main/Employee_Sentiment_Analysis_Visualizations.pdf)
 
 
 ---
