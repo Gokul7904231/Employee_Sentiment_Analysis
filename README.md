@@ -76,7 +76,7 @@ These employees sent **4+ negative emails** in any 30-day rolling window:
 ## 📁 Project Structure
 
 ```
-📦 Employee-Sentiment-Analysis/
+📦 Employee_Sentiment_Analysis/
 ├── Sentiment_Analysis.ipynb
 ├── sentiment_labeled.csv
 ├── report.docx
@@ -86,7 +86,7 @@ These employees sent **4+ negative emails** in any 30-day rolling window:
 │   ├── top_positive_employees.png
 │   ├── top_negative_employees.png
 │   └── ...
-├── Employee_Sentiment_Analysis_Visualizations.docx
+├── Employee_Sentiment_Analysis_Visualizations.pdf
 └── README.md
 ```
 
